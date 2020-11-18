@@ -1,0 +1,1 @@
+Have you ever used Color Picker of any IDE or from Google? Well, if you are an developer, you must have used it. But by using this color picker pro, you will be using a pro method to pick colors for your project! Just open it and have fun!! 
