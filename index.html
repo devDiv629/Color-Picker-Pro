@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+				
+<head>
+		 <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Divyanshu Tiwari">
+    <meta name="description" content="A color picker which is completely different and unique. You can use this color picker for choosing color for your projects.">
+    <meta name="keywords" content="color picker, color picker pro, project, color, colour, picker, pro">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+				<title>Color Picker Pro</title>
+				<style>
+								* {
+												margin: 0;
+												padding: 0;
+								}
+								
+								body {
+												background-color: #121212;
+												font-family: 'Grandstander';
+								}
+								
+								h1 {
+												color: white;
+												text-align: center;
+												margin: 2rem auto 0.5rem auto;
+												width: 80%;
+												background-color: #121212;
+												border-radius: 25px;
+												padding: 10px 10px 4px 10px;
+								}
+								
+								#pro {
+												color: red;
+								}
+								
+								h2 {
+												color: gray;
+												text-align: center;
+								}
+								
+								h4 {
+												color: yellow;
+												text-align: center;
+												margin: 3rem auto 0 auto;
+								}
+								
+								button {
+												border: none;
+												font-family: 'Ubuntu', sans-serif;
+												display: block;
+												width: 70%;
+												margin: 2rem auto;
+												background-color: lightGreen;
+												padding: 0.6rem 2rem;
+												outline: none;
+												border-radius: 25px;
+												font-weight: bold;
+												transition: transform 0.2s;
+												curson: pointer;
+								}
+								
+								#hex {
+								     margin: 1rem auto;
+								}
+								
+								button:hover {
+								    background-color: lime;
+								}
+								
+								button:active {
+								    transform: scale(0.85);
+								}
+								
+								#credits {
+								    text-align: center;
+								    margin-bottom: 70px;
+								}
+								
+								#origin {
+								    color: gray;
+								    font-size: 12px;
+								}
+								
+								a {
+								    color: violet;
+								    cursor: pointer;
+								}
+								
+								#follow {
+								    margin-top: 8px;
+								}
+								
+								footer {
+								    padding: 20px 0;
+             background-color: #e8491d;
+             text-align: center;
+             position: fixed;
+             bottom: 0;
+             width: 100%;
+             font-family: 'Ubuntu', sans-serif;
+								}
+				</style>
+</head>
+
+<body>
+				<h1>Color Picker <span id="pro">Pro</span></h1>
+				<h2>Made for Pro's</h2>
+				
+<div>
+				<h4>Select the method</h4>
+				<button id="hex">Hex Value</button>
+				<button id="rgb">RGB</button>
+				<button id="rgba">RGBA</button>
+				<button id="linearG">Linear-Gradient</button>
+				<button id="radialG">Radial-Gradient</button>
+</div>
+
+<div id="credits">
+   <p id="origin">&lt;&#33;&#45;&#45 Originally Made by Divyanshu Tiwari &#45;&#45;&gt;</p>
+   <p id="follow"> <a href="https://getmimo.com/invite/74yosx"> Follow on Mimo </a> </p>
+</div>
+
+<footer>
+			<p> Color Picker Pro, Copyright &copy; 2020 </p>
+</footer>
+
+<script>
+				let hexBtn = document.getElementById('hex');
+				let rgbBtn = document.getElementById('rgb');
+				let rgbaBtn = document.getElementById('rgba');
+				let linearGBtn = document.getElementById('linearG');
+				let radialGBtn = document.getElementById('radialG');
+				
+hexBtn.addEventListener('click', ()=> {
+				location.href = "hex_value.html";
+});
+rgbBtn.addEventListener('click', ()=> {
+				location.href = "rgb.html";
+});
+rgbaBtn.addEventListener('click', ()=> {
+				location.href = "rgba.html";
+});
+linearGBtn.addEventListener('click', ()=> {
+				location.href = "linear_gradient.html";
+});
+radialGBtn.addEventListener('click', ()=> {
+				location.href = "radial_gradient.html";
+});
+</script>
+</body>
+
+</html>
