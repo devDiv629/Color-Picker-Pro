@@ -317,7 +317,7 @@ function createRgradient() {
  box.style.background = radialGradient;
  
  // Displaying Radial Gradient Value
- let lGradientText = document.getElementById('rGradientText');
+ let rGradientText = document.getElementById('rGradientText');
  rGradientText.value = radialGradient;
 };
 
@@ -326,7 +326,7 @@ function createRgradient() {
 function copyRgradient() {
   // This code will copy Radial Gradient Value to Clipboard
   let rGradientValue =               document.getElementById('rGradientText');
-  rGradienta.select();
+  rGradientValue.select();
   document.execCommand("copy");
   let selection =   
  document.getSelection();
